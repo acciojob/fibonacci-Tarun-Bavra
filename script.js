@@ -1,5 +1,11 @@
 function fibonacci(num) {
 // your code here
+	if(num===1){
+		return 0;
+	}
+	if(num===2){
+		return 1;
+	}
 	let fistTerm = 0;
 	let secondTerm = 1;
      let numthTerm;//let num=3
