@@ -2,13 +2,13 @@ function fibonacci(num) {
 // your code here
 	let fistTerm = 0;
 	let secondTerm = 1;
-
+     let numthTerm;
 	for (let i = 0; i < num; i++) {
-		x = fistTerm+secondTerm;
+		numthTerm = fistTerm+secondTerm;
 		firstTerm = secondTerm;
-		secondTerm=x;
+		secondTerm=numthTerm;
 	}
-	console.log(x);
+	retun numthTerm;
 	
 }
 
