@@ -1,6 +1,6 @@
 function fibonacci(num) {
 // your code here
-	if(num===1){
+	if(num===1 || num<=0){
 		return 0;
 	}
 	if(num===2){
@@ -9,7 +9,7 @@ function fibonacci(num) {
 	let fistTerm = 0;
 	let secondTerm = 1;
      let numthTerm;//let num=3
-	for (let i = 0; i < num; i++) {//f=1;s=1
+	for (let i = 2; i <=num; i++) {//f=1;s=1
 		numthTerm = fistTerm+secondTerm;//num=1,f=1,s=1--1st loop
 		firstTerm = secondTerm;//num=2,f=1,s=2--2nd lopp
 		secondTerm=numthTerm;//num=3,f=2,s=3--3rd loop
