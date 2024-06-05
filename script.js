@@ -8,7 +8,7 @@ function fibonacci(num) {
 		firstTerm = secondTerm;//num=2,f=1,s=2--2nd lopp
 		secondTerm=numthTerm;//num=3,f=2,s=3--3rd loop
 	}                            // num=5,f=3,s=5---4th loop
-	retun numthTerm;
+	return numthTerm;
 	
 }
 
