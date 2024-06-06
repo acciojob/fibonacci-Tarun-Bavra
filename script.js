@@ -1,12 +1,12 @@
 function fibonacci(num) {
 // your code here//0 1 1 2 3 5 8 13....so on
-	if(num===0)
+	if(num===0 || num===1)
 	{
 		return 0;
 	}
-	if(num===1)
+	if(num===2)
 	{
-		return 0;
+		return 1;
 	}                             //   1  2  3  4  5  6  7  8
 	let firstTerm =0;//fibonocci-->  0  1  1  2  3  5  8  13 .....
 	let secondTerm = 1;
