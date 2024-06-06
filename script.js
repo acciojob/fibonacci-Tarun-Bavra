@@ -6,7 +6,7 @@ function fibonacci(num) {
 	}
 	if(num===1)
 	{
-		return 1;
+		return 0;
 	}                             //   1  2  3  4  5  6  7  8
 	let firstTerm =0;//fibonocci-->  0  1  1  2  3  5  8  13 .....
 	let secondTerm = 1;
