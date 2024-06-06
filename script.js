@@ -17,6 +17,6 @@ function fibonacci(num) {
 		firstTerm = secondTerm;//f=1, 1, 2
 		secondTerm=numthTerm;//s=1, 2, 3
 	}                            
-	return secondTerm;
+	return numthTerm;
 }
 module.exports = fibonacci;
